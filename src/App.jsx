@@ -36,11 +36,11 @@ function App() {
         draw++;
       }
     });
-    if (draw === 9 ) {
+    if (draw === 9) {
       setWinuser("draw");
       setStop(true);
     }
-    
+
     winningScenarios.forEach((element) => {
       let counterTrue = 0;
       let counterFalse = 0;
@@ -58,7 +58,6 @@ function App() {
         counterTrue = 0;
         setStop(true);
       }
-
 
       counterTrue = 0;
       counterFalse = 0;
